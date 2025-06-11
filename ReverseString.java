@@ -1,10 +1,8 @@
-package java_with_dsa;
-
+package demo;
 public class ReverseString {
     public static void main(String[] args) {
-        String originalString = "Guruteja";
-        String reversedString = new StringBuilder(originalString).reverse().toString();
-        System.out.println("Original: " + originalString);
-        System.out.println("Reverse: " + reversedString);
+        String original = "hello";
+        String reversed = new StringBuilder(original).reverse().toString();
+        System.out.println("Reversed String: " + reversed);
     }
 }
